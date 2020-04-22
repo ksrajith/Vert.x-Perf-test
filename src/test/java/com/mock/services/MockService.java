@@ -6,6 +6,13 @@ import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
 import sun.security.provider.certpath.Vertex;
 
+/**
+Sample mock service
+If this runs in local environment then urls for below service
+http://localhost:3030/api/test
+This returns with http responsecode as 200
+**/
+
 public class MockService {
 
     public MockService(Router router){
